@@ -24,6 +24,9 @@ footer .conteudo{
     color:#000;
 }
 
+.conteudo code{
+    font-size: small;
+}
 
 .redes {
     position: absolute;
