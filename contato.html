@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="rodape.css">
+
+
+    <style>
+        .conteudo-4{
+            
+            color:rgba(68, 63, 63, 0.87);
+            margin-bottom: 0px;
+            padding-bottom: 30px;
+            width: 100%;
+
+        }
+         h2 {
+           text-align: center;
+           padding-top: 50px;
+         }
+
+         .conteudo-4 p{
+            text-align: center;
+            padding-bottom: 50px;
+            
+         }
+
+         form{
+        
+            background-color:white;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+            box-shadow: 1px 3px 5px rgba(128, 128, 128, 0.589);
+            padding: 50px 20px 50px 20px;
+            
+         }
+
+         .form-group{
+            margin-top: 5px;
+         }
+
+         .form-group label{
+           font-weight: bold;
+           text-transform: uppercase;
+           
+         }
+
+         .enviar{
+            margin-top: 30px;
+            padding: 5px 20px;
+            border-radius: 0px;
+            font-size: 18px;
+            font-weight: bold;
+            color:#fff;
+            text-transform: uppercase;
+            
+         }
+
+         .conteudo-5{
+            margin-left: 50px;
+            width: 100%;
+    
+         }
+
+         .conteudo-5, h5{
+        
+            padding-left: 30px;
+            padding-right: 0px;
+
+          
+
+
+         }
+
+         .conteudo-5 address{
+            font-weight: 500;
+            padding: 15px 10px;
+            text-align: justify;
+           
+
+            
+         }
+
+
+    </style>
+
+    <title>Contato</title>
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Fitness Form</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Nossa Empresa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servico">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+              </li>
+            
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid conteudo-4">
+
+        <h2> Agende uma visita</h2>
+           <p>Entre em contato com uma de nossas filiais.</p>
+       
+        <form>
+           <div class="form-group col-sm-6">
+             <label for="nome">Nome: </label>
+             <input type="text" class="form-control" id="nome" placeholder="Nome">
+           </div>
+
+           <div class="form-group col-sm-6">
+            <label for="email">E-mail: </label>
+             <input type="email" class="form-control" id="email" placeholder="@email.com">
+           </div>
+
+           <div class="form-group col-sm-2">
+            <labeL for="phone">Celular: </labeL>
+            <input type="phone" class="form-control" id="phone" placeholder="00 0000-0000">
+
+           </div>
+
+           <div class="form-group col-sm-4">
+           <label for="cidades">Cidade: </label>
+            <input type="text" list="cidades" autocomplete="on" class="form-control">
+            <datalist id="cidades">
+               <option value="Duque de Caxias">
+                <option value="Niteroi">
+                <option value="Nova Iguaçu">
+                <option value="Rio de Janeiro">
+            </datalist>
+        
+           </div>
+
+           <br>
+          <div class="form-group col-sm-4">
+            
+            <textarea  class="form-control" id="msg" placeholder="Escreva sua mensagem" row="20" cols="50"></textarea>
+          </div>
+
+
+          <button type="submit" name="enviar" value="enviar" class="btn btn-danger enviar">Enviar</button>
+        </form>
+
+
+
+        <div class="container-fluid conteudo-5"> 
+            <h5>Endereços:</h5>
+        <div class="row container">
+            <address class="col-sm-3">Av. brigadeiro Lima e Silva, 123, 25 de Agosto, Duque de Caxias - RJ</address>
+
+            <address class="col-sm-3">Rua Quinze de Novembro, 8 - Centro, Niterói - RJ</address>
+
+
+            <address class="col-sm-3">Av. Gov. Roberto Silveira, 540 - Centro, Nova Iguaçu - RJ</address>
+
+            <address class="col-sm-3">Praia de Botafogo, 400 - Botafogo, Rio de Janeiro - RJ,</address>
+
+
+        </div>
+      </div>
+    </div>
+    <footer> 
+      <div class="conteudo">
+
+        <p> Academia Fitness Form &copy;
+            <small>by site: canvas.com.br</small>
+        </p>
+
+        <ul class="redes">
+            <li><a href="#">instagram</a></li>
+            <li><a href="#">facebook</a></li>
+            <li><a href="#">X</a></li>
+        </ul>
+       
+      </div>
+    </footer>
+    
+</body>
+</html>

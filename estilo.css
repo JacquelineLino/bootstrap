@@ -1,0 +1,155 @@
+@charset  'utf-8';
+
+.conteudo-1{
+    background-color: #000;
+    color:white;
+    width: 100%;
+    height: 600px;
+  
+    
+
+}
+ .titulo{
+    padding-top: 60px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 52px;
+    text-align: left;
+    margin-left: 30px;
+   
+}
+
+.foto{
+    width:854px;
+    height:380px;
+
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-right: auto;
+
+}
+.btn{
+
+    margin-left:50px;
+    border-radius: 0px;
+}
+.btn a{
+    padding:5px 5px;
+    text-align: center;
+    text-decoration: none;
+   
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+
+}
+
+.conteudo-2{
+
+    background-color: hsla(0, 0%, 0%, 0.847);
+    width: 100%;
+    height: 700px;
+}
+
+.titulo-2{
+    padding-top: 120px;
+    margin-left: 30px;
+    width: 400px;
+    font-size: 18px;
+}
+
+.titulo-2  h1{
+    color:yellow;
+    font-size: 52px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
+.titulo-2 p{
+color:white;
+}
+
+.saiba-mais{
+
+    text-decoration: underline;
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+.saiba-mais:hover{
+    color: yellow;
+}
+.saiba-mais:active{
+color: rgb(255, 187, 0);
+
+}
+
+.saiba-mais a:visited{
+    color:blueviolet;
+}
+
+
+.foto-2{
+  
+    padding-top: 50px;
+    width: 300px;
+    height:480px;
+    float:right;
+
+}
+
+.foto-3{
+
+    margin-top: 70px;
+    padding-top: 70px;
+    width: 300px;
+    height:480px;
+    float:right;
+    padding-left: 5px;
+  
+}
+
+
+.conteudo-3{
+
+    background-color: hsla(0, 0%, 0%, 0.847);
+    width: 100%;
+    height: 700px;
+}
+
+.conteudo-3 h1{
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 52px;
+}
+.conteudo-3 p{
+    color: white;
+    font-size: 20px;
+}
+
+.imagem1{
+
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.imagem2{
+
+    width: 400px;
+    height: 400px;
+    margin-top:30px;
+    
+   
+}
+.imagem3{
+    width: 400px;
+    height: 400px;
+    margin-top:30px;
+    margin-right: 20px;
+   
+ 
+}

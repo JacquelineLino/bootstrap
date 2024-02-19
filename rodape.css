@@ -1,0 +1,37 @@
+@charset  'utf-8';
+
+footer{
+    clear:both;
+    padding: 20px 0;
+}
+
+footer .conteudo{
+    position: relative;
+}
+
+.conteudo{
+    height: 150px;
+    background-color: rgba(220, 220, 220, 0.74);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: auto;
+    padding-top: 75px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    text-align: left;
+}
+.conteudo p{
+    color:#000;
+}
+
+
+.redes {
+    position: absolute;
+    top: 12px;
+    right: 0; 
+}
+
+.redes li{
+    float: left;
+    margin-left:25px;
+}
